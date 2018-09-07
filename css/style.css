@@ -1,0 +1,134 @@
+.side-menu{
+	z-index: 9;
+	background-color: #414658;
+	width: 0;
+	height: 100%;
+	transition: .3s;
+	overflow: hidden;
+}
+.side-menu li.active a{
+	color: red
+}
+.side-menu .closeBtn{
+	color: #fff;
+	position: absolute;
+	top: 18px;
+	right: 20px;
+	font-size: 25px
+}
+.side-menu li{
+	margin:25px 20px;
+	font-size:20px
+}
+.side-menu a{
+	color: #fff;
+	text-decoration: none;
+	transition: .3s
+
+}
+.side-menu a:hover{
+	color: red
+}
+.header{
+	background-image: url(../images/event.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	color: #fff;
+	
+}
+.header .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(214, 46, 51 , 0.6);
+}
+.header .overlay .content{
+	transition: .3s;
+}
+.header .overlay .open{
+	font-size: 20px;
+	display: inline-block;
+	cursor: pointer;
+}
+.duration .content{
+	margin:40px auto;
+	width: 60%
+}
+.duration h3{
+	padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+.duration .content div{
+	padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+.count-down{
+	background-image: url(../images/invitation.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 300px
+}
+.count-down .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(214, 46, 51 , 0.6);
+	color: #fff
+
+}
+.count-down .content{
+	border: 1px solid #fff;
+	height: 200px;
+}
+.count-down .content h2{
+	line-height: 200px;
+
+}
+
+.contact h2{
+	margin-bottom: 40px
+}
+.contact p{
+	color: #777;
+	margin-bottom: 30px
+}
+.contact .info div{
+	color: #777;
+	margin-bottom: 30px
+}
+.contact .info div a{
+	text-decoration: none;
+	color: red
+}
+.contact .info div .i{
+	color: red
+}
+.contact .social i{
+    color: #777;
+    border: 1px solid #999;
+    margin-top: 8px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 39px;
+}
+.contact input{
+	margin-bottom: 20px
+}
+.contact textarea{
+	margin-bottom: 20px
+}
+.contact p span{
+	color:red;
+}
